@@ -10,7 +10,7 @@ class Duplik8s < Formula
   on_macos do
     on_intel do
       url "https://github.com/Telemaco019/duplik8s/releases/download/v0.2.0/duplik8s_Darwin_x86_64.tar.gz"
-      sha256 "04972c71aa24a5147a34905cfa32928dd8fb2609ba4397aa63a0e06cda45ca00"
+      sha256 "86117c9d89d68ca6b8c7494f737d775a0ff1444a87fbf99425a32f3b58b6d028"
 
       def install
         bin.install "duplik8s"
@@ -18,7 +18,7 @@ class Duplik8s < Formula
     end
     on_arm do
       url "https://github.com/Telemaco019/duplik8s/releases/download/v0.2.0/duplik8s_Darwin_arm64.tar.gz"
-      sha256 "bb27b60175d52670799a436fcb5c26daeb3e704bee9255bd6ba8acc7030bfa93"
+      sha256 "bbeed9a30714175a381b88a7c6000e7ffb109910b756a920a7e599511c1b5727"
 
       def install
         bin.install "duplik8s"
@@ -30,7 +30,7 @@ class Duplik8s < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/Telemaco019/duplik8s/releases/download/v0.2.0/duplik8s_Linux_x86_64.tar.gz"
-        sha256 "dec54eebdc1d1b0d524f5b4f5b5f655eae526d0ccc541fd68d1b4ab86a35edc5"
+        sha256 "11c69d349905bcded828493a541e46cac25e4b4234c296f69c0cbd7defe0af3c"
 
         def install
           bin.install "duplik8s"
@@ -40,7 +40,7 @@ class Duplik8s < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/Telemaco019/duplik8s/releases/download/v0.2.0/duplik8s_Linux_arm64.tar.gz"
-        sha256 "74a268a320fd59548a765765cdc14ea3220d2460f607bb7182fc3a3133d6ab71"
+        sha256 "76a461698892a16f0224541e8d30b4a9ec3955f4b5554cc7bf73d44e09b10576"
 
         def install
           bin.install "duplik8s"
