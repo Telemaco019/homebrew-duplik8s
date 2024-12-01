@@ -5,20 +5,20 @@
 class Duplik8s < Formula
   desc "kubectl plugin to duplicate resources in a Kubernetes cluster."
   homepage "https://github.com/Telemaco019/duplik8s"
-  version "0.3.0"
+  version "0.3.1"
 
   on_macos do
     on_intel do
-      url "https://github.com/Telemaco019/duplik8s/releases/download/v0.3.0/duplik8s_Darwin_x86_64.tar.gz"
-      sha256 "16190497896439b4f5ac764f4f483d3698c96d9baf0627f4267dfff3be84dd80"
+      url "https://github.com/Telemaco019/duplik8s/releases/download/v0.3.1/duplik8s_Darwin_x86_64.tar.gz"
+      sha256 "e6892fe3eb032f3b2a6bbfe1afdf17b3987cbf4af9d4cac3d85cd3efc6a57229"
 
       def install
         bin.install "duplik8s"
       end
     end
     on_arm do
-      url "https://github.com/Telemaco019/duplik8s/releases/download/v0.3.0/duplik8s_Darwin_arm64.tar.gz"
-      sha256 "cfad9b6f36915a4b82561d012c52136d9e80645c8184dd69cd91b4d6bdbcd5ef"
+      url "https://github.com/Telemaco019/duplik8s/releases/download/v0.3.1/duplik8s_Darwin_arm64.tar.gz"
+      sha256 "4c051eb6c98e07dde3e980aa6cc03fa104cca087a16a6a8d5585d11a035b838e"
 
       def install
         bin.install "duplik8s"
@@ -29,8 +29,8 @@ class Duplik8s < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Telemaco019/duplik8s/releases/download/v0.3.0/duplik8s_Linux_x86_64.tar.gz"
-        sha256 "afdfc51b17a3c4bd6b8a4f3e70bd8ce60f4d00dc85eddedfe02341870e5207f9"
+        url "https://github.com/Telemaco019/duplik8s/releases/download/v0.3.1/duplik8s_Linux_x86_64.tar.gz"
+        sha256 "ca578c69fb85e1d39e046ab0997f72a13fad00791701c8927a5398e2bb14e4df"
 
         def install
           bin.install "duplik8s"
@@ -39,8 +39,8 @@ class Duplik8s < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Telemaco019/duplik8s/releases/download/v0.3.0/duplik8s_Linux_arm64.tar.gz"
-        sha256 "0a958717fe7ea1e551f83bd2cd49801d0f881c1d714c5832c5def24ec12c4bba"
+        url "https://github.com/Telemaco019/duplik8s/releases/download/v0.3.1/duplik8s_Linux_arm64.tar.gz"
+        sha256 "cbd19f0eca26069498f24995ae94390d6e4d5fea0f3e342ff5b0a13063adb10d"
 
         def install
           bin.install "duplik8s"
